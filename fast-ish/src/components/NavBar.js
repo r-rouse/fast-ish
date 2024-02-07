@@ -39,7 +39,7 @@ const NavBar = () => {
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
                                 <li><a class="dropdown-item" href="/hats">performace</a></li>
-                                <li><a class="dropdown-item" href="hats">fashio</a></li>
+                                <li><a class="dropdown-item" href="/hats">fashio</a></li>
                             </ul>
                         </li>
                     </ul>
