@@ -19,6 +19,6 @@ body {
 
 .page-footer {
   margin-top: auto;
-  min-width: 90vw;
+  min-width: 100vw;
   background-color: #e0e0e0; /* Lighter Gray */
 }
