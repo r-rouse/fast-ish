@@ -1,0 +1,17 @@
+.shirt-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Create 3 equal rows */
+    gap: 20px;
+    /* Add gap between rows and columns as needed */
+}
+
+.shirt-card {
+    border: 1px #e0e0e0
+        /* Lighter Gray */
+        solid;
+    margin: 3vh;
+    border-radius: 5%;
+}
+
+/* Add any other styling rules as needed */

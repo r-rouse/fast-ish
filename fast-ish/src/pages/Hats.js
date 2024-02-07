@@ -3,7 +3,7 @@ import React from "react";
 
 
 
-export const Home = () => {
+export const Hats = () => {
 
 
 
@@ -11,7 +11,7 @@ export const Home = () => {
 
     return (
         <>
-        HOME
+        HATS HERE
 
         </>
     )
