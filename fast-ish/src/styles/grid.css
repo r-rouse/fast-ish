@@ -1,7 +1,7 @@
 .shirt-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* Create 3 equal rows */
+    /* Create 3 equal columns by default */
     gap: 20px;
     /* Add gap between rows and columns as needed */
     max-width: 90vw;
@@ -9,13 +9,20 @@
 
 .shirt-card {
     border: 1px #e0e0e0
-        /* Lighter Gray */
-        solid;
+    /* Lighter Gray */
+    solid;
     margin: 3vh;
     border-radius: 5%;
 }
-.shirt-link{
+
+.shirt-link {
     color: black;
 }
 
-/* Add any other styling rules as needed */
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .shirt-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* Change to 2 columns on smaller screens */
+    }
+}
