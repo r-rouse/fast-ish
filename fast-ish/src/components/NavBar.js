@@ -22,9 +22,9 @@ const NavBar = () => {
                                 Clothes
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="https://fastish.netlify.app/clothes">run</a></li>
-                                <li><a class="dropdown-item" href="https://fastish.netlify.app/clothes">hike</a></li>
-                                <li><a class="dropdown-item" href="https://fastish.netlify.app/clothes">chill</a></li>
+                                <li><a class="dropdown-item" href="/clothes">run</a></li>
+                                <li><a class="dropdown-item" href="/clothes">hike</a></li>
+                                <li><a class="dropdown-item" href="/clothes">chill</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -38,8 +38,8 @@ const NavBar = () => {
                                 Hats
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="https://fastish.netlify.app/hats">performace</a></li>
-                                <li><a class="dropdown-item" href="https://fastish.netlify.app/hats">fashio</a></li>
+                                <li><a class="dropdown-item" href="/hats">performace</a></li>
+                                <li><a class="dropdown-item" href="/hats">fashio</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -53,7 +53,7 @@ const NavBar = () => {
                                 Not clothes
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="https://fastish.netlify.app/stuff">stuff</a></li>
+                                <li><a class="dropdown-item" href="/stuff">stuff</a></li>
                             </ul>
                         </li>
                     </ul>
