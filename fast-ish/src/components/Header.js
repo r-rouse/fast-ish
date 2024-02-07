@@ -12,8 +12,12 @@ export const Header = () => {
         <div className="component-container">
             <div className="header-container">
                 <div className="header-logo">
-                    <img src={logo} alt="logo" />
-                    <img src={logo2} alt="logo"/>
+                    <a href="/">
+                        <img src={logo} alt="logo" />
+                    </a>
+                    <a href="/">
+                        <img src={logo2} alt="logo" />
+                    </a>
                 </div>
                 <div className="nav-bar-container">
                 </div>
