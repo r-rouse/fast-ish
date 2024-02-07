@@ -6,6 +6,7 @@ import { Footer } from './components/Footer';
 import { Stuff } from './pages/Stuff';
 import { Hats } from './pages/Hats';
 import { Clothes } from './pages/Clothes';
+import ShirtDescription from './pages/ShirtDescription';
 
 function App() {
   return (
@@ -21,19 +22,26 @@ function App() {
                   <Home />
                 }
               />
-               <Route
+              <Route
                 path='/clothes'
                 element={
                   <Clothes />
                 }
               />
-               <Route
+              <Route
+                path='/shirt/:id'
+                element={
+                  <ShirtDescription />
+                }
+              />
+
+              <Route
                 path='/hats'
                 element={
                   <Hats />
                 }
               />
-               <Route
+              <Route
                 path='/stuff'
                 element={
                   <Stuff />
