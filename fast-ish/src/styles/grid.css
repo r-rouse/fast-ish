@@ -4,6 +4,7 @@
     /* Create 3 equal rows */
     gap: 20px;
     /* Add gap between rows and columns as needed */
+    max-width: 90vw;
 }
 
 .shirt-card {
